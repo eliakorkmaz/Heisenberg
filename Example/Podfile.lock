@@ -1,0 +1,16 @@
+PODS:
+  - Heisenberg (0.1.0)
+
+DEPENDENCIES:
+  - Heisenberg (from `../`)
+
+EXTERNAL SOURCES:
+  Heisenberg:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Heisenberg: 7e13834ec5116ea15aff2046c54826b32685ae3c
+
+PODFILE CHECKSUM: 1ddad44f8803afb9c22f24988fa3b844331125df
+
+COCOAPODS: 1.8.4

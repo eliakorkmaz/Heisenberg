@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014E59FFB924F0E65F47AFCAFC26FC86 /* Heisenberg-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D25B5775397E871C73379BD62DE85D57 /* Heisenberg-dummy.m */; };
+		04E0DD1B6EC6577BF5D13F4E683B261C /* Pods-Heisenberg_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 072F066074F3AE18FC4B895BAA95A82F /* Pods-Heisenberg_Tests-dummy.m */; };
+		1E60E9A99C504BB036F098DB03A535D3 /* Pods-Heisenberg_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6838E258F8C56E8C0917B8F3EE526CA0 /* Pods-Heisenberg_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FFE5A5E236A3565002EAC9F /* Heisenberg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE5A5D236A3565002EAC9F /* Heisenberg.swift */; };
+		2FFE5A60236A35A4002EAC9F /* Atomable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE5A5F236A35A4002EAC9F /* Atomable.swift */; };
+		2FFE5A62236A35AB002EAC9F /* Atom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE5A61236A35AB002EAC9F /* Atom.swift */; };
+		2FFE5A64236A35F3002EAC9F /* DirectionalAtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE5A63236A35F3002EAC9F /* DirectionalAtom.swift */; };
+		2FFE5A66236A3669002EAC9F /* DirectionalLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE5A65236A3669002EAC9F /* DirectionalLineView.swift */; };
+		2FFE5A68236A3698002EAC9F /* CustomViewConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE5A67236A3698002EAC9F /* CustomViewConvertible.swift */; };
+		2FFE5A6A236A36B6002EAC9F /* StructuralWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE5A69236A36B6002EAC9F /* StructuralWay.swift */; };
+		2FFE5A6C236A36D0002EAC9F /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE5A6B236A36D0002EAC9F /* LineView.swift */; };
+		2FFE5A6E236A36F5002EAC9F /* HeisenbergBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE5A6D236A36F5002EAC9F /* HeisenbergBoard.swift */; };
+		2FFE5A70236A376B002EAC9F /* Representable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE5A6F236A376B002EAC9F /* Representable.swift */; };
+		3E1E0535478887340F463C5BB4FC9560 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7EFFEA0B18C8DFABC3D376B9820816AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9865837872200F43B9DCFC01CDE392AF /* Heisenberg-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C125531F436CE88BA5DF90DCE217AF5E /* Heisenberg-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C59694D7E5DA6059737D868CF5A3739D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D597E184CC69EE8F4A8EEFABA9DE9DAA /* Pods-Heisenberg_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70D5A6C6833066AF29312F2F7A424E6C /* Pods-Heisenberg_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8B527E44A68BF318D0E0F3F150CD216 /* Pods-Heisenberg_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0101010766D8D2D945B54493D327A91B /* Pods-Heisenberg_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03F57A42B591F90827DD693EBA0F86C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B7FFE962BE5879D9C2AD06F16F25D5E;
+			remoteInfo = "Pods-Heisenberg_Example";
+		};
+		39E26A44D2417270E67740A32E8320C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27BB8CC11E5DEC9A900133B84E00AAF1;
+			remoteInfo = Heisenberg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0101010766D8D2D945B54493D327A91B /* Pods-Heisenberg_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Heisenberg_Example-dummy.m"; sourceTree = "<group>"; };
+		04A5DF49DC77E804440F55ACA8C2C861 /* Pods-Heisenberg_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Heisenberg_Tests.modulemap"; sourceTree = "<group>"; };
+		072F066074F3AE18FC4B895BAA95A82F /* Pods-Heisenberg_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Heisenberg_Tests-dummy.m"; sourceTree = "<group>"; };
+		0F7D1389741DDDA7E35C67D4D4B3F431 /* Pods-Heisenberg_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Heisenberg_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2FFE5A5D236A3565002EAC9F /* Heisenberg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heisenberg.swift; sourceTree = "<group>"; };
+		2FFE5A5F236A35A4002EAC9F /* Atomable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atomable.swift; sourceTree = "<group>"; };
+		2FFE5A61236A35AB002EAC9F /* Atom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atom.swift; sourceTree = "<group>"; };
+		2FFE5A63236A35F3002EAC9F /* DirectionalAtom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionalAtom.swift; sourceTree = "<group>"; };
+		2FFE5A65236A3669002EAC9F /* DirectionalLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionalLineView.swift; sourceTree = "<group>"; };
+		2FFE5A67236A3698002EAC9F /* CustomViewConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewConvertible.swift; sourceTree = "<group>"; };
+		2FFE5A69236A36B6002EAC9F /* StructuralWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuralWay.swift; sourceTree = "<group>"; };
+		2FFE5A6B236A36D0002EAC9F /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		2FFE5A6D236A36F5002EAC9F /* HeisenbergBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeisenbergBoard.swift; sourceTree = "<group>"; };
+		2FFE5A6F236A376B002EAC9F /* Representable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representable.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3469A9F1B46A63830CBD5375A1129D46 /* Pods-Heisenberg_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Heisenberg_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		372C6BCDB5B0E89A0938DBD924C6FAAD /* Pods-Heisenberg_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Heisenberg_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38E1B048C4C1B24C291A13256CFC66EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3A0BCB5183547A1F90B1CC704F21C3F7 /* Pods_Heisenberg_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Heisenberg_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A7697022751FDFD2CF24326B1868C1 /* Pods-Heisenberg_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Heisenberg_Tests-Info.plist"; sourceTree = "<group>"; };
+		4B674CC34F1980B0312A2BA9F5599131 /* Pods-Heisenberg_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Heisenberg_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F53769D12B8C831754F1817DC237927 /* Pods-Heisenberg_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Heisenberg_Example-Info.plist"; sourceTree = "<group>"; };
+		508353143945BC94AB5C53A3385BE696 /* Pods-Heisenberg_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Heisenberg_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5185DB91909AC211A96989AC7C46895F /* Pods-Heisenberg_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Heisenberg_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FAE8D0EB22CA11D1544CF1FC73E3134 /* Heisenberg.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Heisenberg.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6838E258F8C56E8C0917B8F3EE526CA0 /* Pods-Heisenberg_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Heisenberg_Example-umbrella.h"; sourceTree = "<group>"; };
+		70D5A6C6833066AF29312F2F7A424E6C /* Pods-Heisenberg_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Heisenberg_Tests-umbrella.h"; sourceTree = "<group>"; };
+		76E73BC50EA9E23FF2E1573F6E470426 /* Pods-Heisenberg_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Heisenberg_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7FD2C0A1F606A3E6B6855251090052A7 /* Heisenberg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Heisenberg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C61DDCAB06FC5E19BDE86235E467D0 /* Heisenberg.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Heisenberg.modulemap; sourceTree = "<group>"; };
+		96F2F4B73D19E94C5F9961674A0B467B /* Pods-Heisenberg_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Heisenberg_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D2FFE34C530364D11C3ED7307217435 /* Heisenberg.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Heisenberg.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C125531F436CE88BA5DF90DCE217AF5E /* Heisenberg-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Heisenberg-umbrella.h"; sourceTree = "<group>"; };
+		C4B13C92F7B539D13FE923F3CB154B21 /* Pods-Heisenberg_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Heisenberg_Example.modulemap"; sourceTree = "<group>"; };
+		C71F5CEA4D170F633A46ED994191DFE7 /* Heisenberg-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Heisenberg-prefix.pch"; sourceTree = "<group>"; };
+		D25B5775397E871C73379BD62DE85D57 /* Heisenberg-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Heisenberg-dummy.m"; sourceTree = "<group>"; };
+		D78465F694076A8E02A81C17EF7A8247 /* Pods_Heisenberg_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Heisenberg_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6B0204E39CCBA8FDA8912A610956A7 /* Pods-Heisenberg_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Heisenberg_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E61BD21CD1679F4D6F7130D1436ABFCF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E85FF04E152891D5176D6CFCBF27F73F /* Heisenberg-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Heisenberg-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44F7E74FC2225508EDAB28DEC9AF4763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFFEA0B18C8DFABC3D376B9820816AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3257E27F99869BD763CC2C50BBAF71D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1E0535478887340F463C5BB4FC9560 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4DBFD49CDC279E5AE7629E6187BB65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59694D7E5DA6059737D868CF5A3739D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A8521BD9A4EA1AE47EFF314FB556D5B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5FAE8D0EB22CA11D1544CF1FC73E3134 /* Heisenberg.podspec */,
+				E61BD21CD1679F4D6F7130D1436ABFCF /* LICENSE */,
+				38E1B048C4C1B24C291A13256CFC66EA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		19791B013D52AF9540D9D25E2E321618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FD2C0A1F606A3E6B6855251090052A7 /* Heisenberg.framework */,
+				3A0BCB5183547A1F90B1CC704F21C3F7 /* Pods_Heisenberg_Example.framework */,
+				D78465F694076A8E02A81C17EF7A8247 /* Pods_Heisenberg_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24325E19018BC8855A0F656F043400A2 /* Pods-Heisenberg_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C4B13C92F7B539D13FE923F3CB154B21 /* Pods-Heisenberg_Example.modulemap */,
+				372C6BCDB5B0E89A0938DBD924C6FAAD /* Pods-Heisenberg_Example-acknowledgements.markdown */,
+				96F2F4B73D19E94C5F9961674A0B467B /* Pods-Heisenberg_Example-acknowledgements.plist */,
+				0101010766D8D2D945B54493D327A91B /* Pods-Heisenberg_Example-dummy.m */,
+				DC6B0204E39CCBA8FDA8912A610956A7 /* Pods-Heisenberg_Example-frameworks.sh */,
+				4F53769D12B8C831754F1817DC237927 /* Pods-Heisenberg_Example-Info.plist */,
+				6838E258F8C56E8C0917B8F3EE526CA0 /* Pods-Heisenberg_Example-umbrella.h */,
+				3469A9F1B46A63830CBD5375A1129D46 /* Pods-Heisenberg_Example.debug.xcconfig */,
+				0F7D1389741DDDA7E35C67D4D4B3F431 /* Pods-Heisenberg_Example.release.xcconfig */,
+			);
+			name = "Pods-Heisenberg_Example";
+			path = "Target Support Files/Pods-Heisenberg_Example";
+			sourceTree = "<group>";
+		};
+		2FFE5A5C236A353E002EAC9F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2FFE5A5D236A3565002EAC9F /* Heisenberg.swift */,
+				2FFE5A5F236A35A4002EAC9F /* Atomable.swift */,
+				2FFE5A61236A35AB002EAC9F /* Atom.swift */,
+				2FFE5A63236A35F3002EAC9F /* DirectionalAtom.swift */,
+				2FFE5A65236A3669002EAC9F /* DirectionalLineView.swift */,
+				2FFE5A67236A3698002EAC9F /* CustomViewConvertible.swift */,
+				2FFE5A69236A36B6002EAC9F /* StructuralWay.swift */,
+				2FFE5A6B236A36D0002EAC9F /* LineView.swift */,
+				2FFE5A6D236A36F5002EAC9F /* HeisenbergBoard.swift */,
+				2FFE5A6F236A376B002EAC9F /* Representable.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		3A1B8CC0A4937595CA09D47894C058A0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24325E19018BC8855A0F656F043400A2 /* Pods-Heisenberg_Example */,
+				A84AFF8B2395350B3B3631DFA1A68BE8 /* Pods-Heisenberg_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		48F64B8C2BEC923F155208B91D02983F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				723C18309850E9B2EE3F07012CD4BB0D /* Heisenberg */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		723C18309850E9B2EE3F07012CD4BB0D /* Heisenberg */ = {
+			isa = PBXGroup;
+			children = (
+				2FFE5A5C236A353E002EAC9F /* Sources */,
+				0A8521BD9A4EA1AE47EFF314FB556D5B /* Pod */,
+				9324282FA5E10C6D5A0254F2C6F20142 /* Support Files */,
+			);
+			name = Heisenberg;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9324282FA5E10C6D5A0254F2C6F20142 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93C61DDCAB06FC5E19BDE86235E467D0 /* Heisenberg.modulemap */,
+				9D2FFE34C530364D11C3ED7307217435 /* Heisenberg.xcconfig */,
+				D25B5775397E871C73379BD62DE85D57 /* Heisenberg-dummy.m */,
+				E85FF04E152891D5176D6CFCBF27F73F /* Heisenberg-Info.plist */,
+				C71F5CEA4D170F633A46ED994191DFE7 /* Heisenberg-prefix.pch */,
+				C125531F436CE88BA5DF90DCE217AF5E /* Heisenberg-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Heisenberg";
+			sourceTree = "<group>";
+		};
+		A84AFF8B2395350B3B3631DFA1A68BE8 /* Pods-Heisenberg_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04A5DF49DC77E804440F55ACA8C2C861 /* Pods-Heisenberg_Tests.modulemap */,
+				4B674CC34F1980B0312A2BA9F5599131 /* Pods-Heisenberg_Tests-acknowledgements.markdown */,
+				508353143945BC94AB5C53A3385BE696 /* Pods-Heisenberg_Tests-acknowledgements.plist */,
+				072F066074F3AE18FC4B895BAA95A82F /* Pods-Heisenberg_Tests-dummy.m */,
+				40A7697022751FDFD2CF24326B1868C1 /* Pods-Heisenberg_Tests-Info.plist */,
+				70D5A6C6833066AF29312F2F7A424E6C /* Pods-Heisenberg_Tests-umbrella.h */,
+				5185DB91909AC211A96989AC7C46895F /* Pods-Heisenberg_Tests.debug.xcconfig */,
+				76E73BC50EA9E23FF2E1573F6E470426 /* Pods-Heisenberg_Tests.release.xcconfig */,
+			);
+			name = "Pods-Heisenberg_Tests";
+			path = "Target Support Files/Pods-Heisenberg_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				48F64B8C2BEC923F155208B91D02983F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				19791B013D52AF9540D9D25E2E321618 /* Products */,
+				3A1B8CC0A4937595CA09D47894C058A0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D99186D72EDA4C3830FC03106D2E6CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9865837872200F43B9DCFC01CDE392AF /* Heisenberg-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6BD764AB236741892AFEFFF70A7D10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D597E184CC69EE8F4A8EEFABA9DE9DAA /* Pods-Heisenberg_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87073312695DFD10BA33FE4C0B817A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E60E9A99C504BB036F098DB03A535D3 /* Pods-Heisenberg_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27BB8CC11E5DEC9A900133B84E00AAF1 /* Heisenberg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FE5F4F402264F2D13983697F7C17EAE /* Build configuration list for PBXNativeTarget "Heisenberg" */;
+			buildPhases = (
+				0D99186D72EDA4C3830FC03106D2E6CD /* Headers */,
+				BA0F73B5511D3DDCB981E25FE14DAF29 /* Sources */,
+				D3257E27F99869BD763CC2C50BBAF71D /* Frameworks */,
+				1F16AFA60A5C69779C316600770C5A1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Heisenberg;
+			productName = Heisenberg;
+			productReference = 7FD2C0A1F606A3E6B6855251090052A7 /* Heisenberg.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2BA5CDEC5D8A4288DFECD23114673D21 /* Pods-Heisenberg_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFF1F03CC748358FA1EFCFC1E3EF8F6 /* Build configuration list for PBXNativeTarget "Pods-Heisenberg_Tests" */;
+			buildPhases = (
+				BC6BD764AB236741892AFEFFF70A7D10 /* Headers */,
+				4519E5613121BE67139A10F96BDAF2DE /* Sources */,
+				44F7E74FC2225508EDAB28DEC9AF4763 /* Frameworks */,
+				242C933909ED3C2B43BBC124E98C61BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C494A7CAD01CFE6A528A1177629E4EEB /* PBXTargetDependency */,
+			);
+			name = "Pods-Heisenberg_Tests";
+			productName = "Pods-Heisenberg_Tests";
+			productReference = D78465F694076A8E02A81C17EF7A8247 /* Pods_Heisenberg_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B7FFE962BE5879D9C2AD06F16F25D5E /* Pods-Heisenberg_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5182F3EEEECA1020ACF3ADE3DB73223 /* Build configuration list for PBXNativeTarget "Pods-Heisenberg_Example" */;
+			buildPhases = (
+				D87073312695DFD10BA33FE4C0B817A9 /* Headers */,
+				A243B70AFED7FA0E1FBD7B0ABD1BDA15 /* Sources */,
+				DC4DBFD49CDC279E5AE7629E6187BB65 /* Frameworks */,
+				7BD78D3215588D50CCF530AEB70594C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F22A6C9B5AB21510C82E3CC8C39CC42 /* PBXTargetDependency */,
+			);
+			name = "Pods-Heisenberg_Example";
+			productName = "Pods-Heisenberg_Example";
+			productReference = 3A0BCB5183547A1F90B1CC704F21C3F7 /* Pods_Heisenberg_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					27BB8CC11E5DEC9A900133B84E00AAF1 = {
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 19791B013D52AF9540D9D25E2E321618 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27BB8CC11E5DEC9A900133B84E00AAF1 /* Heisenberg */,
+				8B7FFE962BE5879D9C2AD06F16F25D5E /* Pods-Heisenberg_Example */,
+				2BA5CDEC5D8A4288DFECD23114673D21 /* Pods-Heisenberg_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F16AFA60A5C69779C316600770C5A1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242C933909ED3C2B43BBC124E98C61BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD78D3215588D50CCF530AEB70594C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4519E5613121BE67139A10F96BDAF2DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E0DD1B6EC6577BF5D13F4E683B261C /* Pods-Heisenberg_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A243B70AFED7FA0E1FBD7B0ABD1BDA15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B527E44A68BF318D0E0F3F150CD216 /* Pods-Heisenberg_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0F73B5511D3DDCB981E25FE14DAF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFE5A70236A376B002EAC9F /* Representable.swift in Sources */,
+				2FFE5A6A236A36B6002EAC9F /* StructuralWay.swift in Sources */,
+				014E59FFB924F0E65F47AFCAFC26FC86 /* Heisenberg-dummy.m in Sources */,
+				2FFE5A5E236A3565002EAC9F /* Heisenberg.swift in Sources */,
+				2FFE5A64236A35F3002EAC9F /* DirectionalAtom.swift in Sources */,
+				2FFE5A68236A3698002EAC9F /* CustomViewConvertible.swift in Sources */,
+				2FFE5A6C236A36D0002EAC9F /* LineView.swift in Sources */,
+				2FFE5A6E236A36F5002EAC9F /* HeisenbergBoard.swift in Sources */,
+				2FFE5A62236A35AB002EAC9F /* Atom.swift in Sources */,
+				2FFE5A60236A35A4002EAC9F /* Atomable.swift in Sources */,
+				2FFE5A66236A3669002EAC9F /* DirectionalLineView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F22A6C9B5AB21510C82E3CC8C39CC42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Heisenberg;
+			target = 27BB8CC11E5DEC9A900133B84E00AAF1 /* Heisenberg */;
+			targetProxy = 39E26A44D2417270E67740A32E8320C9 /* PBXContainerItemProxy */;
+		};
+		C494A7CAD01CFE6A528A1177629E4EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Heisenberg_Example";
+			target = 8B7FFE962BE5879D9C2AD06F16F25D5E /* Pods-Heisenberg_Example */;
+			targetProxy = 03F57A42B591F90827DD693EBA0F86C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		381906DD6AF4FED637CA95AD55E1B82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F7D1389741DDDA7E35C67D4D4B3F431 /* Pods-Heisenberg_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Heisenberg_Example/Pods-Heisenberg_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Heisenberg_Example/Pods-Heisenberg_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BED5F244576E64207FC19AEBEFC64A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5185DB91909AC211A96989AC7C46895F /* Pods-Heisenberg_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Heisenberg_Tests/Pods-Heisenberg_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Heisenberg_Tests/Pods-Heisenberg_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		711BAAD247D4EDD6EE68FA91852AABD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E73BC50EA9E23FF2E1573F6E470426 /* Pods-Heisenberg_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Heisenberg_Tests/Pods-Heisenberg_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Heisenberg_Tests/Pods-Heisenberg_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		996001667C55C2C73CEAB56E97AF185E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3469A9F1B46A63830CBD5375A1129D46 /* Pods-Heisenberg_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Heisenberg_Example/Pods-Heisenberg_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Heisenberg_Example/Pods-Heisenberg_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A32315C82B7595D574084791DA230B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2FFE34C530364D11C3ED7307217435 /* Heisenberg.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Heisenberg/Heisenberg-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Heisenberg/Heisenberg-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Heisenberg/Heisenberg.modulemap";
+				PRODUCT_MODULE_NAME = Heisenberg;
+				PRODUCT_NAME = Heisenberg;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A46A8AC8A15E1EF48E4C167A83059B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2FFE34C530364D11C3ED7307217435 /* Heisenberg.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Heisenberg/Heisenberg-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Heisenberg/Heisenberg-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Heisenberg/Heisenberg.modulemap";
+				PRODUCT_MODULE_NAME = Heisenberg;
+				PRODUCT_NAME = Heisenberg;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FE5F4F402264F2D13983697F7C17EAE /* Build configuration list for PBXNativeTarget "Heisenberg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32315C82B7595D574084791DA230B8E /* Debug */,
+				A46A8AC8A15E1EF48E4C167A83059B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5182F3EEEECA1020ACF3ADE3DB73223 /* Build configuration list for PBXNativeTarget "Pods-Heisenberg_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				996001667C55C2C73CEAB56E97AF185E /* Debug */,
+				381906DD6AF4FED637CA95AD55E1B82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECFF1F03CC748358FA1EFCFC1E3EF8F6 /* Build configuration list for PBXNativeTarget "Pods-Heisenberg_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BED5F244576E64207FC19AEBEFC64A0 /* Debug */,
+				711BAAD247D4EDD6EE68FA91852AABD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
