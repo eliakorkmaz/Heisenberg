@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Heisenberg_Example' do
+  pod 'Heisenberg', :path => '../'
+
+  target 'Heisenberg_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
