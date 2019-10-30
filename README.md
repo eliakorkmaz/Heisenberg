@@ -11,7 +11,7 @@
 
 ## HeisenbergLinearStructure
 
-```
+```swift
 let heisenberg = HeisenbergLinearStructure(with: hidyrogen1, itemSize: 40)
 heisenberg.linkTo(with: oxgen, with: .SingleBond) { (structure) in
     // structure callback
@@ -31,7 +31,7 @@ view.addSubview(boardView)
 
 ## HeisenbergDirectionalStructure
 
-```
+```swift
 let directional = HeisenbergDirectionalStructure(with: cAtom, itemSize: 50)
 directional.linkWith(from: cAtom, to: nAtom, way: .next, bond: .SingleBond, bondColor: .black) { (structure) in
 
