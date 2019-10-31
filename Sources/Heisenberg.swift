@@ -15,6 +15,7 @@ public protocol BoardItem:class{}
 // MARK: - Description of Heisenberg Linear Structure
 public class HeisenbergLinearStructure<Value>: BoardItem{
     public typealias BoardValue = Value
+    public typealias HeisenbergCompletion = (HeisenbergLinearStructure<Value>) -> ()
     
     var head: Atom<Value>?
     var tail: Atom<Value>?
@@ -26,7 +27,7 @@ public class HeisenbergLinearStructure<Value>: BoardItem{
         self.itemSize = itemSize
     }
     
-    @discardableResult public func linkTo(with atom: Atom<Value>?, with bond: Atom<Value>.BondType, completion: @escaping (_ val: HeisenbergLinearStructure<Value>) -> ()) -> Self {
+    @discardableResult public func linkTo(with atom: Atom<Value>?, with bond: Atom<Value>.BondType, completion: @escaping HeisenbergCompletion = { _ in }) -> Self {
         self.tail?.nextAtom = atom
         self.tail?.bondType = bond
         self.tail = self.tail?.nextAtom
@@ -265,9 +266,9 @@ public class HeisenbergDirectionalStructure<Value>: BoardItem where Value: Equat
     }
     
     public enum BondType: Int {
-        case SingleBond = 1
-        case DoubleBond = 2
-        case TripleBond = 3
+        case singleBond = 1
+        case doubleBond = 2
+        case tripleBond = 3
     }
     
 }

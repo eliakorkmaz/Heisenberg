@@ -9,7 +9,7 @@ import UIKit
 
 open class LineView: UIView{
     
-    var bond: BondType
+    var bond: LineViewBondType
     var startPoint: CGPoint
     var endPoint: CGPoint
     var color: UIColor
@@ -17,19 +17,22 @@ open class LineView: UIView{
     
     
     public override func draw(_ rect: CGRect) {
-        let context = UIGraphicsGetCurrentContext()
-        context?.setLineWidth(3)
-        context?.setStrokeColor(color.cgColor)
+        guard let context = UIGraphicsGetCurrentContext() else {
+            fatalError("Err: Expected context is not nil - Cannot draw LineView")
+        }
+
+        context.setLineWidth(3)
+        context.setStrokeColor(color.cgColor)
             
         var points = [(startPoint: CGPoint, endPoint: CGPoint)]()
         
         switch bond {
-        case .SingleBond:
+        case .singleBond:
             points.append((startPoint: CGPoint(x: 0, y: itemSize/2-1), endPoint: CGPoint(x: itemSize, y: itemSize/2-1)))
-        case .DoubleBond:
+        case .doubleBond:
             points.append((startPoint: CGPoint(x: 0, y: itemSize/2-4), endPoint: CGPoint(x: itemSize, y: itemSize/2-4)))
             points.append((startPoint: CGPoint(x: 0, y: itemSize/2+4), endPoint: CGPoint(x: itemSize, y: itemSize/2+4)))
-        case .TripleBond:
+        case .tripleBond:
             points.append((startPoint: CGPoint(x: 0, y: itemSize/2-6), endPoint: CGPoint(x: itemSize, y: itemSize/2-6)))
             points.append((startPoint: CGPoint(x: 0, y: itemSize/2), endPoint: CGPoint(x: itemSize, y: itemSize/2)))
             points.append((startPoint: CGPoint(x: 0, y: itemSize/2+6), endPoint: CGPoint(x: itemSize, y: itemSize/2+6)))
@@ -37,18 +40,18 @@ open class LineView: UIView{
         
         for point in points {
             
-            context?.move(to: point.startPoint)
-            context?.addLine(to: point.endPoint)
+            context.move(to: point.startPoint)
+            context.addLine(to: point.endPoint)
             
         }
         
-        context?.strokePath()
+        context.strokePath()
     }
     
     
     
     private override init(frame: CGRect) {
-        self.bond = .SingleBond
+        self.bond = .singleBond
         self.startPoint = CGPoint(x: 0, y: 0)
         self.endPoint = CGPoint(x: 0, y: 0)
         self.color = UIColor.black
@@ -58,7 +61,7 @@ open class LineView: UIView{
         self.backgroundColor = .clear
     }
     
-    public init(frame: CGRect, startPoint: CGPoint, endPoint: CGPoint, itemSize: Int, bond: BondType, color: UIColor?){
+    public init(frame: CGRect, startPoint: CGPoint, endPoint: CGPoint, itemSize: Int, bond: LineViewBondType, color: UIColor?){
         
         self.bond = bond
         self.startPoint = startPoint
@@ -73,12 +76,6 @@ open class LineView: UIView{
     
     required public init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
-    }
-    
-    public enum BondType: Int{
-        case SingleBond = 1
-        case DoubleBond = 2
-        case TripleBond = 3
     }
 
 }

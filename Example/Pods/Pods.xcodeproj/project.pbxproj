@@ -10,6 +10,7 @@
 		014E59FFB924F0E65F47AFCAFC26FC86 /* Heisenberg-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D25B5775397E871C73379BD62DE85D57 /* Heisenberg-dummy.m */; };
 		04E0DD1B6EC6577BF5D13F4E683B261C /* Pods-Heisenberg_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 072F066074F3AE18FC4B895BAA95A82F /* Pods-Heisenberg_Tests-dummy.m */; };
 		1E60E9A99C504BB036F098DB03A535D3 /* Pods-Heisenberg_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6838E258F8C56E8C0917B8F3EE526CA0 /* Pods-Heisenberg_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F6DA2CB236B7FA900D51409 /* Bonds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6DA2CA236B7FA900D51409 /* Bonds.swift */; };
 		2FFE5A5E236A3565002EAC9F /* Heisenberg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE5A5D236A3565002EAC9F /* Heisenberg.swift */; };
 		2FFE5A60236A35A4002EAC9F /* Atomable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE5A5F236A35A4002EAC9F /* Atomable.swift */; };
 		2FFE5A62236A35AB002EAC9F /* Atom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE5A61236A35AB002EAC9F /* Atom.swift */; };
@@ -50,6 +51,7 @@
 		04A5DF49DC77E804440F55ACA8C2C861 /* Pods-Heisenberg_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Heisenberg_Tests.modulemap"; sourceTree = "<group>"; };
 		072F066074F3AE18FC4B895BAA95A82F /* Pods-Heisenberg_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Heisenberg_Tests-dummy.m"; sourceTree = "<group>"; };
 		0F7D1389741DDDA7E35C67D4D4B3F431 /* Pods-Heisenberg_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Heisenberg_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2F6DA2CA236B7FA900D51409 /* Bonds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bonds.swift; sourceTree = "<group>"; };
 		2FFE5A5D236A3565002EAC9F /* Heisenberg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heisenberg.swift; sourceTree = "<group>"; };
 		2FFE5A5F236A35A4002EAC9F /* Atomable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atomable.swift; sourceTree = "<group>"; };
 		2FFE5A61236A35AB002EAC9F /* Atom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atom.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				2FFE5A6B236A36D0002EAC9F /* LineView.swift */,
 				2FFE5A6D236A36F5002EAC9F /* HeisenbergBoard.swift */,
 				2FFE5A6F236A376B002EAC9F /* Representable.swift */,
+				2F6DA2CA236B7FA900D51409 /* Bonds.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				2FFE5A6A236A36B6002EAC9F /* StructuralWay.swift in Sources */,
 				014E59FFB924F0E65F47AFCAFC26FC86 /* Heisenberg-dummy.m in Sources */,
 				2FFE5A5E236A3565002EAC9F /* Heisenberg.swift in Sources */,
+				2F6DA2CB236B7FA900D51409 /* Bonds.swift in Sources */,
 				2FFE5A64236A35F3002EAC9F /* DirectionalAtom.swift in Sources */,
 				2FFE5A68236A3698002EAC9F /* CustomViewConvertible.swift in Sources */,
 				2FFE5A6C236A36D0002EAC9F /* LineView.swift in Sources */,

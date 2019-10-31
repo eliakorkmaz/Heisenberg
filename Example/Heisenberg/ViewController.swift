@@ -13,23 +13,26 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //simpleCrossTest()
+        testNH3()
     }
     
     func simpleCrossTest(){
-        let firstAtom = DirectionalAtom(with: "A", color: .blue, _textColor: .white)
+        let firstAtom = DirectionalAtom(with: "A", color: .blue, textColor: .white)
         let secondAtom = DirectionalAtom(with: "B", color: .white)
         let thirdAtom = DirectionalAtom(with: "C", color: .white)
         let fourthAtom = DirectionalAtom(with: "D", color: .white)
         let fifthAtom = DirectionalAtom(with: "E", color: .white)
         
         let heisenberg = HeisenbergDirectionalStructure(with: firstAtom, itemSize: 40)
-        heisenberg.linkWith(from: firstAtom, to: secondAtom, way: .crossUpBackward, bond: .TripleBond, bondColor: .black) { (structure) in
+        heisenberg.linkWith(from: firstAtom, to: secondAtom, way: .crossUpBackward, bond: .tripleBond, bondColor: .black) { (structure) in
             
-        }.linkWith(from: firstAtom, to: thirdAtom, way: .crossDownBackward, bond: .TripleBond, bondColor: .black) { (structure) in
+        }.linkWith(from: firstAtom, to: thirdAtom, way: .crossDownBackward, bond: .tripleBond, bondColor: .black) { (structure) in
             
-        }.linkWith(from: firstAtom, to: fourthAtom, way: .crossUpForward, bond: .TripleBond, bondColor: .black) { (structure) in
+        }.linkWith(from: firstAtom, to: fourthAtom, way: .crossUpForward, bond: .tripleBond, bondColor: .black) { (structure) in
             
-        }.linkWith(from: firstAtom, to: fifthAtom, way: .crossDownForward, bond: .TripleBond, bondColor: .black) { (structure) in
+        }.linkWith(from: firstAtom, to: fifthAtom, way: .crossDownForward, bond: .tripleBond, bondColor: .black) { (structure) in
             
         }
         
@@ -49,11 +52,11 @@ class ViewController: UIViewController {
         let fourthAtom = DirectionalAtom(with: "T", color: .brown)
         
         let heisenberg = HeisenbergDirectionalStructure(with: firstAtom, itemSize: 50)
-        heisenberg.linkWith(from: firstAtom, to: secondAtom, way: .crossUpBackward, bond: .TripleBond, bondColor: .black) { (structure) in
+        heisenberg.linkWith(from: firstAtom, to: secondAtom, way: .crossUpBackward, bond: .tripleBond, bondColor: .black) { (structure) in
             
-        }.linkWith(from: firstAtom, to: thirdAtom, way: .crossDownBackward, bond: .TripleBond, bondColor: .black) { (structure) in
+        }.linkWith(from: firstAtom, to: thirdAtom, way: .crossDownBackward, bond: .tripleBond, bondColor: .black) { (structure) in
             
-        }.linkWith(from: firstAtom, to: fourthAtom, way: .next, bond: .SingleBond, bondColor: .black) { (structure) in
+        }.linkWith(from: firstAtom, to: fourthAtom, way: .next, bond: .tripleBond, bondColor: .black) { (structure) in
             
         }
         
@@ -76,15 +79,15 @@ class ViewController: UIViewController {
         
         
         let directional = HeisenbergDirectionalStructure(with: cAtom, itemSize: 50)
-        directional.linkWith(from: cAtom, to: nAtom, way: .next, bond: .SingleBond, bondColor: .black) { (structure) in
+        directional.linkWith(from: cAtom, to: nAtom, way: .next, bond: .singleBond, bondColor: .black) { (structure) in
             
-        }.linkWith(from: nAtom, to: h1Atom, way: .crossUpForward, bond: .SingleBond, bondColor: .black) { (structure) in
+        }.linkWith(from: nAtom, to: h1Atom, way: .crossUpForward, bond: .singleBond, bondColor: .black) { (structure) in
             
-        }.linkWith(from: nAtom, to: h3Atom, way: .crossDownForward, bond: .SingleBond, bondColor: .black) { (structure) in
+        }.linkWith(from: nAtom, to: h3Atom, way: .crossDownForward, bond: .singleBond, bondColor: .black) { (structure) in
             
-        }.linkWith(from: nAtom, to: h2Atom, way: .next, bond: .SingleBond, bondColor: .black) { (structure) in
+        }.linkWith(from: nAtom, to: h2Atom, way: .next, bond: .singleBond, bondColor: .black) { (structure) in
             
-        }.linkWith(from: cAtom, to: loveAtom, way: .downward, bond: .TripleBond, bondColor: .darkGray) { (structure) in
+        }.linkWith(from: cAtom, to: loveAtom, way: .downward, bond: .tripleBond, bondColor: .darkGray) { (structure) in
             //
         }
         
@@ -108,9 +111,9 @@ class ViewController: UIViewController {
         
         
         let directional = HeisenbergDirectionalStructure<String>(with: hAtom, itemSize: 50)
-        directional.linkWith(from: hAtom, to: oAtom, way: .next, bond: .DoubleBond, bondColor: .black) { (structure) in
+        directional.linkWith(from: hAtom, to: oAtom, way: .next, bond: .doubleBond, bondColor: .black) { (structure) in
             
-        }.linkWith(from: oAtom, to: hAtom2, way: .next, bond: .TripleBond, bondColor: .black) { (structure) in
+        }.linkWith(from: oAtom, to: hAtom2, way: .next, bond: .tripleBond, bondColor: .black) { (structure) in
             
         }
         
@@ -132,11 +135,11 @@ class ViewController: UIViewController {
         let c = Atom(with: "C", color: .green)
         
         let linear = HeisenbergLinearStructure<String>(with: h1, itemSize: 50)
-        linear.linkTo(with: o, with: .DoubleBond) { (structure) in
+        linear.linkTo(with: o, with: .doubleBond) { (structure) in
             
-        }.linkTo(with: h2, with: Atom<String>.BondType.TripleBond) { (structure) in
+        }.linkTo(with: h2, with: Atom<String>.BondType.tripleBond) { (structure) in
             
-        }.linkTo(with: c, with: Atom<String>.BondType.SingleBond) { (structure) in
+        }.linkTo(with: c, with: Atom<String>.BondType.singleBond) { (structure) in
             
         }
         
@@ -154,9 +157,9 @@ class ViewController: UIViewController {
         let o = Atom(with: "O", color: .cyan)
         
         let linear = HeisenbergLinearStructure<String>(with: h1, itemSize: 40)
-        linear.linkTo(with: o, with: .TripleBond) { (structure) in
+        linear.linkTo(with: o, with: .tripleBond) { (structure) in
             
-        }.linkTo(with: h2, with: Atom<String>.BondType.SingleBond) { (structure) in
+        }.linkTo(with: h2, with: Atom<String>.BondType.singleBond) { (structure) in
             
         }
         
@@ -176,13 +179,13 @@ class ViewController: UIViewController {
         let h = DirectionalAtom(with: "C", color: .orange)
         
         let heisenberg = HeisenbergDirectionalStructure<String>(with: c1, itemSize: 40)
-        heisenberg.linkWith(from: c1, to: h, way: .next, bond: .SingleBond, bondColor: .black) { (structure) in
+        heisenberg.linkWith(from: c1, to: h, way: .next, bond: .singleBond, bondColor: .black) { (structure) in
             
-        }.linkWith(from: h, to: c2, way: .upward, bond: .SingleBond, bondColor: .black) { (structure) in
+        }.linkWith(from: h, to: c2, way: .upward, bond: .singleBond, bondColor: .black) { (structure) in
             
-        }.linkWith(from: h, to: c3, way: .downward, bond: .SingleBond, bondColor: .black) { (structure) in
+        }.linkWith(from: h, to: c3, way: .downward, bond: .singleBond, bondColor: .black) { (structure) in
             
-        }.linkWith(from: h, to: c4, way: .next, bond: .SingleBond, bondColor: .black) { (structure) in
+        }.linkWith(from: h, to: c4, way: .next, bond: .singleBond, bondColor: .black) { (structure) in
             
         }
         
@@ -209,21 +212,21 @@ class ViewController: UIViewController {
         let hAtom9 = DirectionalAtom(with: "❤️", color: UIColor.blue)
 
         let heisenberg = HeisenbergDirectionalStructure(with: hAtom1, itemSize: 40)
-        heisenberg.linkWith(from: hAtom1, to: hAtom2, way: .crossUpForward, bond: .DoubleBond, bondColor: UIColor.black) { (board) in
+        heisenberg.linkWith(from: hAtom1, to: hAtom2, way: .crossUpForward, bond: .doubleBond, bondColor: UIColor.black) { (board) in
 
-        }.linkWith(from: hAtom2, to: hAtom3, way: .crossDownForward, bond: .DoubleBond, bondColor: UIColor.black) { (board) in
+        }.linkWith(from: hAtom2, to: hAtom3, way: .crossDownForward, bond: .doubleBond, bondColor: UIColor.black) { (board) in
 
-        }.linkWith(from: hAtom3, to: hAtom4, way: .crossUpForward, bond: .TripleBond, bondColor: UIColor.black) { (board) in
+        }.linkWith(from: hAtom3, to: hAtom4, way: .crossUpForward, bond: .doubleBond, bondColor: UIColor.black) { (board) in
 
-        }.linkWith(from: hAtom4, to: hAtom5, way: .crossDownForward, bond: .DoubleBond, bondColor: UIColor.black) { (board) in
+        }.linkWith(from: hAtom4, to: hAtom5, way: .crossDownForward, bond: .doubleBond, bondColor: UIColor.black) { (board) in
 
-        }.linkWith(from: hAtom5, to: hAtom6, way: .crossDownBackward, bond: .DoubleBond, bondColor: UIColor.black) { (board) in
+        }.linkWith(from: hAtom5, to: hAtom6, way: .crossDownBackward, bond: .doubleBond, bondColor: UIColor.black) { (board) in
 
-        }.linkWith(from: hAtom6, to: hAtom7, way: .crossDownBackward, bond: .DoubleBond, bondColor: UIColor.black) { (board) in
+        }.linkWith(from: hAtom6, to: hAtom7, way: .crossDownBackward, bond: .doubleBond, bondColor: UIColor.black) { (board) in
 
-        }.linkWith(from: hAtom7, to: hAtom8, way: .crossUpBackward, bond: .DoubleBond, bondColor: UIColor.black) { (board) in
+        }.linkWith(from: hAtom7, to: hAtom8, way: .crossUpBackward, bond: .doubleBond, bondColor: UIColor.black) { (board) in
 
-        }.linkWith(from: hAtom8, to: hAtom9, way: .crossUpBackward, bond: .DoubleBond, bondColor: UIColor.black) { (board) in
+        }.linkWith(from: hAtom8, to: hAtom9, way: .crossUpBackward, bond: .doubleBond, bondColor: UIColor.black) { (board) in
 
         }
 
@@ -236,18 +239,18 @@ class ViewController: UIViewController {
 
     func crossTest(){
         let hAtom = DirectionalAtom(with: "H", color: UIColor.white)
-        let pAtom = DirectionalAtom(with: "P", color: UIColor.black, _textColor: .white)
+        let pAtom = DirectionalAtom(with: "P", color: UIColor.black, textColor: .white)
         let qAtom = DirectionalAtom(with: "Q", color: UIColor.purple)
-        let oAtom = DirectionalAtom(with: "O", color: UIColor.brown, _textColor: .white)
+        let oAtom = DirectionalAtom(with: "O", color: UIColor.brown, textColor: .white)
 
         let heisenberg = HeisenbergDirectionalStructure(with: hAtom, itemSize: 40)
-        heisenberg.linkWith(from: hAtom, to: pAtom, way: .crossUpForward, bond: .TripleBond) { (heisenberg) in
+        heisenberg.linkWith(from: hAtom, to: pAtom, way: .crossUpForward, bond: .tripleBond) { (heisenberg) in
 
-        }.linkWith(from: pAtom, to: qAtom, way: .crossDownForward, bond: .TripleBond) { (str) in
+        }.linkWith(from: pAtom, to: qAtom, way: .crossDownForward, bond: .tripleBond) { (str) in
 
-        }.linkWith(from: qAtom, to: oAtom, way: .crossDownBackward, bond: .TripleBond) { (heisenberg) in
+        }.linkWith(from: qAtom, to: oAtom, way: .crossDownBackward, bond: .tripleBond) { (heisenberg) in
             //
-        }.linkWith(from: oAtom, to: hAtom, way: .crossUpBackward, bond: .TripleBond)
+        }.linkWith(from: oAtom, to: hAtom, way: .crossUpBackward, bond: .tripleBond)
 
 
         let board = HeisenbergBoard<String>(with: heisenberg, with: .lightGray)
@@ -267,13 +270,13 @@ class ViewController: UIViewController {
 
 
         let numerical = HeisenbergDirectionalStructure<String>(with: firstDirectionalAtom, itemSize: 40)
-        numerical.linkWith(from: firstDirectionalAtom, to: secondDirectionalAtom, way: .next, bond: .SingleBond) { _ in
+        numerical.linkWith(from: firstDirectionalAtom, to: secondDirectionalAtom, way: .next, bond: .singleBond) { _ in
 
-        }.linkWith(from: secondDirectionalAtom, to: thirdDirectionalAtom, way: .next, bond: .SingleBond) { _ in
+        }.linkWith(from: secondDirectionalAtom, to: thirdDirectionalAtom, way: .next, bond: .singleBond) { _ in
 
-        }.linkWith(from: secondDirectionalAtom, to: fourthDirectionalAtom, way: .upward, bond: .SingleBond) { _ in
+        }.linkWith(from: secondDirectionalAtom, to: fourthDirectionalAtom, way: .upward, bond: .singleBond) { _ in
 
-        }.linkWith(from: secondDirectionalAtom, to: fifthDirectionalAtom, way: .downward, bond: .SingleBond) { _ in
+        }.linkWith(from: secondDirectionalAtom, to: fifthDirectionalAtom, way: .downward, bond: .singleBond) { _ in
 
         }
 

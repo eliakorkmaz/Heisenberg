@@ -23,7 +23,7 @@ public class Atom<Value>: Atomable{
     var bondType: BondType
     
     public init(with value: Value, color: UIColor? = nil){
-        self.bondType = .NotBonded
+        self.bondType = .notBonded
         self.atomicNumber = 1
         self.symbol = value
         self.name = value
@@ -33,21 +33,21 @@ public class Atom<Value>: Atomable{
     }
 
     public enum BondType: String {
-        case SingleBond = "➡️"
-        case DoubleBond = "⏩"
-        case TripleBond = "⏭"
-        case NotBonded = ""
+        case singleBond = "➡️"
+        case doubleBond = "⏩"
+        case tripleBond = "⏭"
+        case notBonded = ""
         
-        func convert() -> LineView.BondType{
+        func convert() -> LineViewBondType{
             switch self {
-            case .SingleBond:
-                return LineView.BondType(rawValue: 1)!
-            case .DoubleBond:
-                return LineView.BondType(rawValue: 2)!
-            case .TripleBond:
-                return LineView.BondType(rawValue: 3)!
-            default:
-                return LineView.BondType(rawValue: 0)!
+            case .singleBond:
+                return .singleBond
+            case .doubleBond:
+                return .doubleBond
+            case .tripleBond:
+                return .tripleBond
+            case .notBonded:
+                return LineViewBondType(rawValue: -1)!
             }
         }
     }

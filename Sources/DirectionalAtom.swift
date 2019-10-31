@@ -20,11 +20,11 @@ open class DirectionalAtom<Value>: Atomable where Value: Equatable{
     open var backgroundColor: UIColor?
     open var textColor: UIColor?
     
-    var nextAtom: DirectionalAtom<Value>?
-    var upwardAtom: DirectionalAtom<Value>?
-    var downwardAtom: DirectionalAtom<Value>?
+    weak var nextAtom: DirectionalAtom<Value>?
+    weak var upwardAtom: DirectionalAtom<Value>?
+    weak var downwardAtom: DirectionalAtom<Value>?
     
-    public init(with value: Value, color: UIColor? = nil, _textColor: UIColor? = nil) {
+    public init(with value: Value, color: UIColor? = nil, textColor: UIColor? = nil) {
         nextAtom = nil
         self.upwardAtom = nil
         self.downwardAtom = nil
@@ -36,7 +36,7 @@ open class DirectionalAtom<Value>: Atomable where Value: Equatable{
         name = value
         atomicWeight = 1.1
         backgroundColor = color
-        textColor = _textColor ?? .black
+        self.textColor = textColor ?? .black
     }
     
 }

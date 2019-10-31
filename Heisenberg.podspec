@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Heisenberg'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A chemical structure creator library for iOS & Swift.'
 
   s.description      = 'Heisenberg lets you create Chemical structures with easy to use '
